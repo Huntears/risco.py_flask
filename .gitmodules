@@ -1,0 +1,6 @@
+[submodule "risco.py"]
+	path = risco
+	url = git@github.com:Huntears/risco.py.git
+[submodule "risco"]
+	path = risco
+	url = git@github.com:Huntears/risco.py.git
