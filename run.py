@@ -18,4 +18,14 @@ def get_dects():
     global riscoapi
     return jsonify(riscoapi.get_dects())
 
+@app.route("/overview")
+def overview():
+    global riscoapi
+    return jsonify(riscoapi.overview())
+
+@app.route("/get_cp_state")
+def get_cp_state():
+    global riscoapi
+    return jsonify(riscoapi.get_cp_state())
+
 app.run()
